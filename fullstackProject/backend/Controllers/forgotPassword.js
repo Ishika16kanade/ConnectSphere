@@ -41,7 +41,7 @@ const sendMail = async (req, res) => {
         });
         let info = await transporter.sendMail({
             from: '"Ishika Kanade"  <ishikakanade123@gmail.com>',
-            to: "ishikakanade123@gmail.com",
+            to: "diksha.chakravedi13@gmail.com",
             subject: 'Hello ',
             text: "Email Container",
             html: "<b>Hello How are You change something </b>"
